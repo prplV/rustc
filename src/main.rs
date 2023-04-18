@@ -42,9 +42,9 @@ fn main() {
 
 
 extern crate rand;
-use std::io;
-use std::cmp::Ordering;
 use rand::Rng;
+use std::io; 
+use std::cmp::Ordering;
 
 fn main() {
     println!("Guess the number!");
